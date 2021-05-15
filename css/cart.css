@@ -1,0 +1,123 @@
+
+.catalog-grid .tile {
+    width: 100%;
+    max-width: 356px;
+    position: relative;
+    border: 1px solid #b2b2b2;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin: 16px auto 24px auto;
+    text-align: left;
+}
+.catalog-grid .tile .price-label {
+    background: #c7b07b;
+}
+.catalog-grid .tile .price-label {
+    position: absolute;
+    padding: 11px 10px 11px 12px;
+    height: 47px;
+    background: #ff9016;
+    top: 0;
+    right: 0;
+    z-index: 12;
+    font-size: 1.125em;
+    color: #fff;
+    font-weight: 900;
+}
+.catalog-grid .tile a .tile-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    z-index: 10;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.catalog-grid .tile .footer {
+    border-top: 1px solid #b2b2b2;
+    padding: 24px 12px 12px 12px;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    -webkit-border-radius: 0 0 0px 0px;
+    -moz-border-radius: 0 0 0px 0px;
+    border-radius: 0 0 0px 0px;
+}
+.catalog-grid .tile img {
+    display: block;
+    margin: auto;
+    -webkit-border-radius: 0px 0px 0 0;
+    -moz-border-radius: 0px 0px 0 0;
+    border-radius: 0px 0px 0 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+        vertical-align: middle;
+}
+.quantity{
+	display: inline-block!important;
+    width: 40%!important;
+    height: 38px;
+    margin: 0 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+}
+.thumb{
+	    width: 6%;
+    padding: 8px 0 12px 0;
+    vertical-align: middle;
+    font-size: 1.125em;
+    font-weight: 300;
+    position: relative;
+}
+.delete{
+	    vertical-align: middle;
+	   padding: 8px 0 12px 0;
+    vertical-align: middle;
+    font-size: 1.125em;
+    font-weight: 300;
+    position: relative;
+}
+.icon-delete{
+	color: #607d8b;
+	display: inline-block;
+    font-size: 1.5em;
+    color: #ff9016;
+    cursor: pointer;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.incr-btn{
+	display: inline-block;
+    width: 20px;
+    height: 38px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    background: #292c2e !important;
+    color: #fff;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 34px;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    transition: background 0.3s;
+}
+th{
+     width: 18%;
+}
+.thumb img {
+  width: 45%;
+}
+.Update{
+  cursor: pointer;
+}
